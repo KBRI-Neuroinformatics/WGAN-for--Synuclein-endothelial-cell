@@ -13,7 +13,7 @@ One -Sentence Summary: α-synuclein induces pathological damage to the brain via
 ### [Prerequisites]
 * __Create virtual environment__  
 
-          virtualenv WGAN_endo --python=python3.69
+          virtualenv WGAN_endo --python=python3.7
           
           source WGAN_endo/bin/activate  
 
@@ -27,6 +27,8 @@ This software was originally designed and run on a system running Ubuntu 18.04 w
 
 ### [Usage]
 __Train and Analysis using <수정 필요>WGAN_for_toupathy.ipynb__
+  * __Network architecture and hyperparameters__    
+    * We adopted the advanced Wasserstein GAN with gradient penalty, which consists of two networks, generator and discriminator, and contains several advanced features for learning (16, 17). We implemented the two networks composed of fully connected layers (FC) and leaky rectified linear unit (ReLU) activation function. We set the number of hidden layer units for the generator and discriminator to 400 and 240, respectively. Thus, the architecture of the generator and discriminator were input FC (100)—leaky ReLU—hidden FC (400)—leaky ReLU—hidden FC (400)—leaky ReLU—output FC (2,254); and input FC (2,254)—leaky ReLU—hidden FC (240)—leaky ReLU—hidden FC (240)—leaky ReLU—output FC (1), respectively. In addition, we set the initial random weight parameters in the generator within the range [-0.3, 0.3] and generated random variables in the latent space determined by the distribution of the rescaled regularized logarithmic profile data. The weights were updated by learning based on the loss of the Wasserstein GAN with gradient penalty (gradient penalty = 10) with Adam optimizer (initial learning rate = 1e-5 and cosine decay restarts schedule) for 200,000 epochs with a minibatch size of 64. We evaluated the generator output performance at multiple checkpoints using t-distributed stochastic neighbor embedding (t-SNE) (20) and correlation between real and generated samples.<br/>
 
 ## Acknowledgments  
 
