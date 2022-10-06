@@ -9,7 +9,7 @@ One -Sentence Summary: α-synuclein induces pathological damage to the brain via
 
 ## Dependencies 
 
-This software was originally designed and run on a system running Ubuntu 18.04 with Python 3.3.6. For neural network model training and interpretation, we used a single Nvidia GeForce GTX 980 Ti GPU, though we anticipate that other GPUs will also work. Standard python software packages used: Tensorflow (1.3.0), Keras (2.0.4), numpy (1.17.3), pandas (0.24.1), scipy (1.3.1), scikit-learn (0.21.3), matplotlib (3.1.2), seaborn (0.9.0), h5py (2.9.0). We additionally used the following Python software packages available here: [IntegratedGradients](https://github.com/hiranumn/IntegratedGradients), and [GSEApy](https://pypi.org/project/gseapy/). 
+This software was originally designed and run on a system running Ubuntu 18.04 with Python 3.3.9. For neural network model training and interpolation, we used a single NVIDIA® Quadro RTX 5000 (16GB GDDR6) GPU, though we anticipate that other GPUs will also work. Standard python software packages used: Tensorflow (2.2.0), numpy (1.19.5), pandas (1.1.5), scipy (1.4.1), scikit-learn (0.24.2), matplotlib (3.2.2), seaborn (0.11.1). 
 
 ## Acknowledgments  
 
