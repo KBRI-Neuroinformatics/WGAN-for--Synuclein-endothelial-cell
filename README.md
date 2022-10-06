@@ -8,14 +8,14 @@ Abstract : Disruption of the blood–brain barrier (BBB) integrity is highly cor
 
 One -Sentence Summary: α-synuclein induces pathological damage to the brain via NF-κB-mediated inflammatory responses
 
-## Software installation 
+## Software installation and training WGAN 
 
 ### [Prerequisites]
 * __Create virtual environment__  
 
-          virtualenv WGAN_toupathy -p python3
+          virtualenv WGAN_endo --python=python3.69
           
-          source WGAN_toupathy/bin/activate  
+          source WGAN_endo/bin/activate  
 
 * __Install packages__  
     
