@@ -4,6 +4,7 @@ Code for paper "α-synuclein induces endothelial disruption mediated by NF-κB-r
 ![WGAN_overveiw](https://user-images.githubusercontent.com/57948381/194007259-31720723-3108-4624-9a94-2b861db24a2a.PNG)
 
 Abstract : Disruption of the blood–brain barrier (BBB) integrity is highly correlated with neurodegenerative disease progression. This study aimed to reveal the pathological role of α-synuclein (α-syn) on the integrity and function of the BBB. BBB integrity was severely compromised in in vivo and in vitro models. Generative adversarial networks (GANs) were applied for RNA sequencing of human brain endothelial cells (ECs) upon treatment with α-syn. α-syn could induce significant upregulation of pathways related to various immune responses. GAN analysis revealed that genes are governed by TNFα-associated signaling and nuclear factor-kappa B (NF-B)-associated responses. TNFα-associated signaling inhibition can preserve BBB integrity from α-syn’s pathological effect. Conversely, the pathological α-syn can induce harmful effects on the BBB mediated through TNFα-related inflammatory responses in brain ECs.
+
 One -Sentence Summary: α-synuclein induces pathological damage to the brain via NF-κB-mediated inflammatory responses
 
 ## Dependencies 
