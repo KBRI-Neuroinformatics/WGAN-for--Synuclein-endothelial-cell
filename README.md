@@ -8,7 +8,7 @@ Abstract : Disruption of the blood–brain barrier (BBB) integrity is highly cor
 
 One -Sentence Summary: α-synuclein induces pathological damage to the brain via NF-κB-mediated inflammatory responses
 
-## Dependencies 
+## Software installation 
 
 ### [Prerequisites]
 * __Create virtual environment__  
@@ -20,6 +20,8 @@ One -Sentence Summary: α-synuclein induces pathological damage to the brain via
 * __Install packages__  
     
           pip install -r requirements.txt
+
+### [Dependencies]
 
 This software was originally designed and run on a system running Ubuntu 18.04 with Python 3.3.9. For neural network model training and interpolation, we used a single NVIDIA® Quadro RTX 5000 (16GB GDDR6) GPU, though we anticipate that other GPUs will also work. Standard python software packages used: Tensorflow (2.2.0), numpy (1.19.5), pandas (1.1.5), scipy (1.4.1), scikit-learn (0.24.2), matplotlib (3.2.2), seaborn (0.11.1). 
 
