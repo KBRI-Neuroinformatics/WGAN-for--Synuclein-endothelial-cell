@@ -1,4 +1,4 @@
-# WGAN for α-Synuclein-endothelial-cell
+# WGAN for α-Synuclein endothelial cell
 Code for paper "α-synuclein induces endothelial disruption mediated by NF-κB-regulated inflammatory responses".
 
 <!--Please read our preprint at the following link:""-->
