@@ -26,7 +26,7 @@ One -Sentence Summary: α-synuclein induces pathological damage to the brain via
 This software was originally designed and run on a system running Ubuntu 18.04 with Python 3.3.9. For neural network model training and interpolation, we used a single NVIDIA® Quadro RTX 5000 (16GB GDDR6) GPU, though we anticipate that other GPUs will also work. Standard python software packages used: Tensorflow (2.2.0), numpy (1.19.5), pandas (1.1.5), scipy (1.4.1), scikit-learn (0.24.2), matplotlib (3.2.2), seaborn (0.11.1). 
 
 ### [Usage]
-__Train and Analysis using WGAN_for_toupathy.ipynb__
+__Train and Analysis using <수정 필요>WGAN_for_toupathy.ipynb__
 
 ## Acknowledgments  
 
